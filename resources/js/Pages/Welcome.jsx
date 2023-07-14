@@ -1,4 +1,5 @@
 import { Link, Head } from '@inertiajs/react';
+import '../../css/styles.css';
 
 export default function Welcome({ auth, laravelVersion, phpVersion }) {
     return (
